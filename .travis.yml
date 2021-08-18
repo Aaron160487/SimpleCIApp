@@ -12,8 +12,8 @@ script:
 deploy:
    provider: elasticbeanstalk
    region: "us-east-1"
-   app: "SimpleCIAp"
-   env: "SimpleCIAp-env"
+   app: "SimpleCIApp"
+   env: "SimpleCIApp-env"
    bucket_name: "elasticbeanstalk-us-east-1-781077946232"
    bucket_path: "SimpleCIApp"
    on:
