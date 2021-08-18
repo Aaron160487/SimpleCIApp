@@ -7,7 +7,7 @@ before_install:
     - docker build -t aaron160487/SimpleCIApp -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true aaron160487/SimpleCIApp npm run test
+    - docker run -e CI=true aaron160487/SimpleCIApp npm run test
 
 deploy:
    provider: elasticbeanstalk
