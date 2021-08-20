@@ -13,7 +13,7 @@ deploy:
    provider: elasticbeanstalk
    region: "us-east-2"
    app: "simpleciapp"
-   env: "simpleciapp-env-1"
+   env: "simpleciapp-env-2"
    bucket_name: "elasticbeanstalk-us-east-2-781077946232"
    bucket_path: "simpleciapp"
    on:
