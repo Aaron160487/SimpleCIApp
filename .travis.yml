@@ -11,11 +11,11 @@ script:
 
 deploy:
    provider: elasticbeanstalk
-   region: "us-east-1"
-   app: "SimpleCIApp"
-   env: "SimpleCIApp-env"
-   bucket_name: "elasticbeanstalk-us-east-1-781077946232"
-   bucket_path: "SimpleCIApp"
+   region: "us-east-2"
+   app: "simpleciapp"
+   env: "simpleciapp-env"
+   bucket_name: "elasticbeanstalk-us-east-2-781077946232"
+   bucket_path: "simpleciapp"
    on:
     branch: master
    access_key_id: "$AWS_ACCESS_KEY"
